@@ -92,6 +92,16 @@ h1 {
   max-height: 300px; /* Altura máxima para scroll */
 }
 
+.list-tasks::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilizando o botão de rolagem */
+  .list-tasks::-webkit-scrollbar-thumb {
+    background-color: #2b13b3; /* Cor do botão de rolagem */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+
 .task {
   background-color: #f2f2f2;
   min-height: 2.5rem;
@@ -136,6 +146,7 @@ footer {
   color: white;
   text-align: center;
   width: 100%;
+  margin-bottom: 100%;
 }
 
 footer a {
